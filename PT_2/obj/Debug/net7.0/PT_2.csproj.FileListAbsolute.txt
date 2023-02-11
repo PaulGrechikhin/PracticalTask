@@ -1,0 +1,15 @@
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\PT_2.csproj.AssemblyReference.cache
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\PT_2.GeneratedMSBuildEditorConfig.editorconfig
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\PT_2.AssemblyInfoInputs.cache
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\PT_2.AssemblyInfo.cs
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\PT_2.csproj.CoreCompileInputs.cache
+T:\C#\PracticalTask\PT_2\bin\Debug\net7.0\PT_2.exe
+T:\C#\PracticalTask\PT_2\bin\Debug\net7.0\PT_2.deps.json
+T:\C#\PracticalTask\PT_2\bin\Debug\net7.0\PT_2.runtimeconfig.json
+T:\C#\PracticalTask\PT_2\bin\Debug\net7.0\PT_2.dll
+T:\C#\PracticalTask\PT_2\bin\Debug\net7.0\PT_2.pdb
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\PT_2.dll
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\refint\PT_2.dll
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\PT_2.pdb
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\PT_2.genruntimeconfig.cache
+T:\C#\PracticalTask\PT_2\obj\Debug\net7.0\ref\PT_2.dll
