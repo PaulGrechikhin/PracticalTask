@@ -4,12 +4,10 @@
 // является ли число чётным (делится ли оно на два без остатка).
 
 int number;
-Console.Write("Введите натурольное число: ");
+Console.Write("Введите целое число: ");
 int.TryParse(Console.ReadLine()!, out number);
 
-int remains = number % 2;
-
-if(remains == 0 )
+if(number % 2 == 0 )
 {
     Console.Write("Число четное");
 }
