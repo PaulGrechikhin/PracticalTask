@@ -12,18 +12,10 @@ int index = 0, count = 1;
 while (index < number)
 {
     Array[index] = count;
-    count++;
-    index++;
-}
-
-index = 1;
-
-while (index < number)
-{
     if (Array[index]%2 == 0)
     {
         Console.Write($"{Array[index]}, ");
     }
-
+    count++;
     index++;
 }
