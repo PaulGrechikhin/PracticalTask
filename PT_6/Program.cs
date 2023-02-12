@@ -5,13 +5,12 @@
 
 int number;
 Console.Write("Введите целое число: ");
-int.TryParse(Console.ReadLine()!, out number);
+bool flag = int.TryParse(Console.ReadLine()!, out number);
 
-if(number % 2 == 0 )
-{
-    Console.Write("Число четное");
-}
+if (flag)
+    if (number % 2 == 0)
+        Console.Write("Число четное");
+    else
+        Console.Write("Число нечетное");
 else
-{
-    Console.Write("Число нечетное");
-}
+    Console.Write("Неверный ввод");

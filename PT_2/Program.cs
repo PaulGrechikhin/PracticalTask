@@ -5,20 +5,21 @@
 double a, b;
 
 Console.Write("Введите первое число: ");
-double.TryParse(Console.ReadLine()!, out a);
+bool flag1 = double.TryParse(Console.ReadLine()!, out a);
 
 Console.Write("Введите второе число: ");
-double.TryParse(Console.ReadLine()!, out b);
+bool flag2 = double.TryParse(Console.ReadLine()!, out b);
+
+
 
 //double a = double.Parse(text1);
 //double b = double.Parse(text2);
-
-
-if(a>b)
-{
-    Console.Write(a + " > " + b);
-}
+if (flag1 && flag2)
+    if (a == b)
+        Console.Write("Введенные числа равны");
+    else if (a > b)
+        Console.Write(a + " > " + b);
+    else
+        Console.Write(a + " < " + b);
 else
-{
-    Console.Write(a + " < " + b);
-}
+    Console.Write("Неверный ввод");
