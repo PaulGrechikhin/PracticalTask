@@ -40,7 +40,7 @@ bool ValidateLines(double[] lineData1, double[] lineData2)
 double input(string message)
 {
     System.Console.Write(message);
-    string value = Console.ReadLine();
+    string value = Console.ReadLine()!;
     double result = Convert.ToDouble(value);
     return result;
 }
